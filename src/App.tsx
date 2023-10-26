@@ -9,7 +9,15 @@ export default function App() {
   console.log("count app", count);
   return (
     <Router>
-      <div>
+      <div
+        style={{
+          backgroundImage:
+            'url("https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg")',
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          height: "100vh",
+        }}
+      >
         <div
           style={{
             display: "flex",

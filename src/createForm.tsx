@@ -1,6 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addItem } from "./action";
+import "./style.css";
+
 export type FormType = {
   name: string;
   age: number;

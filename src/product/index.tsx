@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement } from "../action";
+import "./style.css";
 
 const Product = () => {
   const dispatch = useDispatch();
@@ -46,7 +47,7 @@ const Product = () => {
                 <img
                   src={value.image}
                   alt={value.name}
-                  style={{ width: "100px", height: "100px" }}
+                  className="containerImage"
                 />
               </div>
               <div
